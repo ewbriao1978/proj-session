@@ -1,0 +1,64 @@
+CRITICAL - 2022-04-29 14:06:44 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:19:41 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:24:02 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:25:38 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:28:07 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:28:28 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:30:11 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 14:37:11 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/aluno/Downloads/proj-session/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/aluno/Downloads/proj-session/spark(45): require('/home/aluno/Dow...')
+#4 {main}
+CRITICAL - 2022-04-29 13:41:41 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in /home/aluno/Downloads/proj-session/app/Config/Routes.php on line 36 and at least 2 expected
+#0 /home/aluno/Downloads/proj-session/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get('/testsessionHom...')
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(713): require('/home/aluno/Dow...')
+#2 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/aluno/Downloads/proj-session/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/aluno/Downloads/proj-session/system/Commands/Server/rewrite.php(43): require_once('/home/aluno/Dow...')
+#6 {main}
+CRITICAL - 2022-04-29 13:43:29 --> Undefined property: App\Controllers\Home::$session
+#0 /home/aluno/Downloads/proj-session/app/Controllers/Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/aluno/Dow...', 19, Array)
+#1 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(832): App\Controllers\Home->testSession()
+#2 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/aluno/Downloads/proj-session/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/aluno/Downloads/proj-session/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/aluno/Downloads/proj-session/system/Commands/Server/rewrite.php(43): require_once('/home/aluno/Dow...')
+#6 {main}
